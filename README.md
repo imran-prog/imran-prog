@@ -1,10 +1,16 @@
 # Hi, I'm Imran 👋 👨🏻‍💻
 
 <img src="https://raw.githubusercontent.com/imran-prog/imran-prog/main/main_banner.jpg" alt="banner that says Imran Akbar - software engineer, artificial lover & web developer alongside a cartoon illustration of a developer">
-I'm a software engineer who is passionate about making open-source more accessible, creating technology to elevate people, and building community. Some technologies I enjoy working with include ReactJS, Jamstack (JavaScript, APIs + Markup) and GraphQL. I recently was selected to be an inaugural <a href="https://stars.github.com/">GitHub Star 🌟</a> based on my involvement in the tech community.  My interest in the React ecosystem led me to launch <a href="https://www.meetup.com/React-Ladies/">React Ladies</a>, a community for women and non-binary ReactJS developers.
+I'm a Student who is passionate about making world more advance, creating technology to elevate people, and building community of creative people. Some languages I enjoy working with include Python (Django, Tensorflow, Flask, OpenCV, etc), Javascript (React JS, Angular JS, etc) and PHP. I love artificial intelligence more tahn anything in this world, and wants to make a daily life a human being more efficient by working side by side with the AI.
 
-
-## Find me around the web 🌎: <a href="https://github.com/sponsors/M0nica"><img align="left" width="150" height="150" src="https://github.com/M0nica/M0nica/blob/main/octomonica/m0nica-octocat-rotating.gif?raw=true"></a>
-- Learning in public on <a href="https://www.twitch.tv/blacktechdiva">Twitch</a> or <a href="https://www.monica.dev">monica.dev</a> 📹 ✍🏾
-- Tinkering with interactions on <a href="https://codepen.io/m0nica"> Codepen</a> 🏓
-- Sharing updates on <a href="https://www.linkedin.com/in/monicampowell/">LinkedIn</a> 💼
+<!--
+## Find me around the web 🌎:
+- 🔭 I’m currently working on ... Python
+- 🌱 I’m currently learning ... Lot's of thing (Python, c++)
+- 👯 I’m looking to collaborate on ... Anything I Can Understand
+- 🤔 I’m looking for help with ... Movie Recommendation
+- 💬 Ask me about ... MySelf
+- 📫 How to reach me: ... Mail Me (unexpectedprogrammer@gmail.com)
+- 😄 Pronouns: ... unexpectedprogrammer, choclate, silent lover
+- ⚡ Fun fact: ... I Love Something That Can't Be Mine.
+-->
