@@ -1,7 +1,7 @@
 <img src="https://github.com/imran-prog/imran-prog/blob/main/banner/imran_sign.png" alt="banner that consist name as Imran Akbar and his signature in the middle">
 <p>I'm a student who is enthusiastic about making the world more developed, making innovations to raise individuals, and building a community of creative people. A few languages I enjoy working with include Python (Django, Tensorflow, Flask, OpenCV, etc), Javascript (Respond JS, Precise JS, etc), c++ and PHP. I adore creating artificial intelligence systems a lot and want to make the everyday life of a human being more effective by working side by side with AI.</p>
 
-## Profile
+## 😊 Profile
 Property                 | Data  
 -------------------------|------
 Language                 | [![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)](https://github.com/search?l=Python&q=user%3Aimran-prog&type=Repositories) [![Html+CSS+Javascript Badge](https://img.shields.io/badge/-Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white)](https://github.com/search?l=JavaScript&q=user%3Azmcx16&type=Repositories) [![C++ Badge](https://img.shields.io/badge/-C%20plus%20plus-00599C?style=flat&logo=C%2B%2B&logoColor=white)](https://github.com/search?q=user%3Azmcx16&type=Repositories) [![C Badge](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=C&logoColor=white)](https://github.com/search?q=user%3Azmcx16&type=Repositories) [![JAVA Badge](https://img.shields.io/badge/-Java-E41F24?style=flat&logo=JAVA&logoColor=white)](https://github.com/search?q=user%3Azmcx16&type=Repositories) [![Julia Badge](https://img.shields.io/badge/-Julia-blueviolet?style=flat&logo=julia&logoColor=white)](https://github.com/search?l=C%23&q=user%3Azmcx16&type=Repositories) [![R Lang Badge](https://img.shields.io/badge/-R_Lang-1F63B2?style=flat&logo=R&logoColor=white)](https://github.com/search?l=C%23&q=user%3Azmcx16&type=Repositories) [![GO Lang Badge](https://img.shields.io/badge/-GO_Lang-72C8D8?style=flat&logo=go&logoColor=white)](https://github.com/search?l=C%23&q=user%3Azmcx16&type=Repositories) [![PHP Lang Badge](https://img.shields.io/badge/-PHP-7377AD?style=flat&logo=php&logoColor=white)](https://github.com/search?l=C%23&q=user%3Azmcx16&type=Repositories)
@@ -44,6 +44,8 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 
 ```
 
+## ✨ Stats
+<img src="https://visitor-badge.glitch.me/badge?page_id=imran-prog.imran-prog" alt="visitor badge"/> [![Years Badge](https://badges.pufler.dev/years/imran-prog)](https://badges.pufler.dev) [![Repos Badge](https://badges.pufler.dev/repos/imran-prog?color=cyan)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/puf17640/git-badges?color=pink)](https://badges.pufler.dev) [![Created Badge](https://badges.pufler.dev/created/puf17640/git-badges?color=yellow)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640?color=red)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/imran-prog/imran-prog?color=green) ![GitHub contributors](https://img.shields.io/github/contributors/imran-prog/imran-prog?color=brightgreen) ![GitHub top language](https://img.shields.io/github/languages/top/imran-prog/imran-prog)
 
 
 <!--END_SECTION:waka-->
