@@ -1,5 +1,5 @@
 <img src="https://github.com/imran-prog/imran-prog/blob/main/banner/imran_sign.png" alt="banner that consist name as Imran Akbar and his signature in the middle">
-<p>I'm a student who is enthusiastic about making the world more developed, making innovations to raise individuals, and building a community of creative people. A few languages I enjoy working with include Python (Django, Tensorflow, Flask, OpenCV, etc), Javascript (React JS, Angular JS, etc), c++ and PHP. I adore creating artificial intelligence systems a lot and wants to make the everyday life of a human being more effective by making AI work side by side with us.</p>
+<p>I'm a student who is enthusiastic about making the world more developed, making innovations to raise individuals, and building a community of creative people. A few languages I enjoy working with include Python (Django, Tensorflow, Flask, OpenCV, etc), Javascript (React JS, Angular JS, etc), c++ and PHP. I adore creating artificial intelligence systems alot and wants to make the everyday life of a human being more effective by making AI work side by side with us.</p>
 
 ## 😊 Profile
 Property                 | Data  
