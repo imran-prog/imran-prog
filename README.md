@@ -59,7 +59,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 
 <img src="https://github.com/imran-prog/imran-prog/blob/main/my-octocat-1608989195961.png" alt="banner that says Imran Akbar - software engineer, artificial lover & web developer alongside a cartoon illustration of a developer" align="left" width="200px">
 <div>
-  <span><li>🔭 I’m currently working on ... Web Applications</li></span>
+  <span><li>🔭 I’m currently working on ... Web and Mobile Applications</li></span>
 <span><li>🌱 I’m currently learning ... Angular, Tensorflow, React Native</li></span>
 <span><li>👯 I’m looking to collaborate on ... Anything I Can Understand</li></span>
 <span><li>🤔 I’m looking for help with ... Movie Recommendation</li></span>
