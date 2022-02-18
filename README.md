@@ -64,6 +64,6 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 <span><li>👯 I’m looking to collaborate on ... Web Applications</li></span>
 <span><li>🤔 I’m looking for help with ... Movie Recommendation</li></span>
 <span><li>💬 Ask me about ... Anything</li></span>
-<span><li>📫 How to reach me: ... Mail Me (infotainer04@gmail.com)</li></span>
+<span><li>📫 How to reach me: ... Mail Me (imranakbar4007@gmail.com)</li></span>
 <span><li>😄 My things ... Space, Physics, AI</li></span>
 </div>
