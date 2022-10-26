@@ -59,11 +59,15 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 
 <img src="https://github.com/imran-prog/imran-prog/blob/main/my-octocat-1608989195961.png" alt="banner that says Imran Akbar - software engineer, artificial lover & web developer alongside a cartoon illustration of a developer" align="left" width="200px">
 <div>
-  <span><li>🔭 I’m currently working on ... Web and Mobile Applications</li></span>
-<span><li>🌱 I’m currently learning ... React, Tensorflow, React Native</li></span>
-<span><li>👯 I’m looking to collaborate on ... Web Applications</li></span>
-<span><li>🤔 I’m looking for help with ... Movie Recommendation</li></span>
-<span><li>💬 Ask me about ... Anything</li></span>
-<span><li>📫 How to reach me: ... Mail Me (imranakbar4007@gmail.com)</li></span>
-<span><li>😄 My things ... Space, Physics, AI</li></span>
+  <span><li>🤓 Self taught Developer</li></span>
+<span><li>👩‍💻 Working on Web & App Developmente</li></span>
+<span><li>📝 Writing Words, Compiling Code</li></span>
+<span><li>🎯 Goal : To be a better Developer</li></span>
+<span><li>💌 Fun Facts :
+<ul>
+<li>Loves food but can't' cook 🐼</li>
+<li>Overthinks thinking to not to overthink 🙂</li>
+<li>Eres mi amor ( Ahh, Learning Spanish out of curiosity ) 🙃</li>
+</ul>
+</li></span>
 </div>
