@@ -19,10 +19,10 @@ repos = user.get_repos()
 
 # Initialize counters
 time_of_day = {
-    "morning": 0,    # 6:00 AM - 12:00 PM
-    "daytime": 0,    # 12:00 PM - 6:00 PM
-    "evening": 0,    # 6:00 PM - 12:00 AM
-    "night": 0       # 12:00 AM - 6:00 AM
+    "morning": 0,  # 6:00 AM - 12:00 PM
+    "daytime": 0,  # 12:00 PM - 6:00 PM
+    "evening": 0,  # 6:00 PM - 12:00 AM
+    "night": 0,  # 12:00 AM - 6:00 AM
 }
 
 day_of_week = {
@@ -32,7 +32,7 @@ day_of_week = {
     "Thursday": 0,
     "Friday": 0,
     "Saturday": 0,
-    "Sunday": 0
+    "Sunday": 0,
 }
 
 # Time zone - adjust this to your local time zone
@@ -44,40 +44,46 @@ total_commits = 0
 # Process each repository
 for repo in repos:
     try:
-        if repo.owner.login == github_username:  # Only process user's own repos
-            commits = repo.get_commits(author=github_username)
-            for commit in commits:
-                commit_date = parser.parse(commit.commit.author.date.isoformat())
-                # Convert to local time
-                local_commit_date = commit_date.astimezone(local_tz)
-                
-                # Count by time of day
-                hour = local_commit_date.hour
-                if 6 <= hour < 12:
-                    time_of_day["morning"] += 1
-                elif 12 <= hour < 18:
-                    time_of_day["daytime"] += 1
-                elif 18 <= hour < 24:
-                    time_of_day["evening"] += 1
-                else:  # 0 <= hour < 6
-                    time_of_day["night"] += 1
-                
-                # Count by day of week
-                day = local_commit_date.strftime('%A')
-                day_of_week[day] += 1
-                
-                total_commits += 1
+        # Get all commits by the user, regardless of repository ownership
+        commits = repo.get_commits(author=github_username)
+
+        # Handle pagination properly
+        for commit in commits:
+            commit_date = parser.parse(commit.commit.author.date.isoformat())
+            # Convert to local time
+            local_commit_date = commit_date.astimezone(local_tz)
+
+            # Count by time of day
+            hour = local_commit_date.hour
+            if 6 <= hour < 12:
+                time_of_day["morning"] += 1
+            elif 12 <= hour < 18:
+                time_of_day["daytime"] += 1
+            elif 18 <= hour < 24:
+                time_of_day["evening"] += 1
+            else:  # 0 <= hour < 6
+                time_of_day["night"] += 1
+
+            # Count by day of week
+            day = local_commit_date.strftime("%A")
+            day_of_week[day] += 1
+
+            total_commits += 1
     except Exception as e:
         print(f"Error processing repo {repo.name}: {e}")
 
 # Calculate percentages
 time_percentages = {}
 for time, count in time_of_day.items():
-    time_percentages[time] = round((count / total_commits) * 100, 2) if total_commits > 0 else 0
+    time_percentages[time] = (
+        round((count / total_commits) * 100, 2) if total_commits > 0 else 0
+    )
 
 day_percentages = {}
 for day, count in day_of_week.items():
-    day_percentages[day] = round((count / total_commits) * 100, 2) if total_commits > 0 else 0
+    day_percentages[day] = (
+        round((count / total_commits) * 100, 2) if total_commits > 0 else 0
+    )
 
 # Find most productive day
 most_productive_day = max(day_of_week.items(), key=lambda x: x[1])[0]
@@ -107,7 +113,7 @@ Sunday       {day_of_week['Sunday']} commits     {'█' * int(day_percentages['S
 ```"""
 
 # Read the README file
-with open('README.md', 'r', encoding='utf-8') as file:
+with open("README.md", "r", encoding="utf-8") as file:
     readme_content = file.read()
 
 # Define start and end tags for the stats sections
@@ -123,7 +129,7 @@ new_content = f"{start_tag}\n{combined_stats}\n{end_tag}"
 updated_readme = re.sub(pattern, new_content, readme_content, flags=re.DOTALL)
 
 # Write the updated content back to the README file
-with open('README.md', 'w', encoding='utf-8') as file:
+with open("README.md", "w", encoding="utf-8") as file:
     file.write(updated_readme)
 
 print("GitHub stats updated successfully!")
