@@ -29,22 +29,22 @@ Reach Me                 | [![X Badge](https://img.shields.io/badge/-imranakbaro
 **I'm a Morning 🦉** 
 
 ```text
-🌞 Morning    181 commits     ███████░░░░░░░░░░░░░   36.86% 
-🌆 Daytime    162 commits     ██████░░░░░░░░░░░░░░   32.99% 
-🌃 Evening    115 commits     ████░░░░░░░░░░░░░░░░   23.42%
-🌙 Night      33 commits     █░░░░░░░░░░░░░░░░░░░   6.72% 
+🌞 Morning    181 commits     ███████░░░░░░░░░░░░░   36.71% 
+🌆 Daytime    164 commits     ██████░░░░░░░░░░░░░░   33.27% 
+🌃 Evening    115 commits     ████░░░░░░░░░░░░░░░░   23.33%
+🌙 Night      33 commits     █░░░░░░░░░░░░░░░░░░░   6.69% 
 
 ```
 📅 **I'm Most Productive on Friday** 
 
 ```text
-Monday       68 commits     ██░░░░░░░░░░░░░░░░░░   13.85% 
-Tuesday      59 commits     ██░░░░░░░░░░░░░░░░░░   12.02% 
-Wednesday    76 commits     ███░░░░░░░░░░░░░░░░░   15.48% 
-Thursday     68 commits     ██░░░░░░░░░░░░░░░░░░   13.85% 
-Friday       77 commits     ███░░░░░░░░░░░░░░░░░   15.68% 
-Saturday     77 commits     ███░░░░░░░░░░░░░░░░░   15.68% 
-Sunday       66 commits     ██░░░░░░░░░░░░░░░░░░   13.44%
+Monday       70 commits     ██░░░░░░░░░░░░░░░░░░   14.2% 
+Tuesday      59 commits     ██░░░░░░░░░░░░░░░░░░   11.97% 
+Wednesday    76 commits     ███░░░░░░░░░░░░░░░░░   15.42% 
+Thursday     68 commits     ██░░░░░░░░░░░░░░░░░░   13.79% 
+Friday       77 commits     ███░░░░░░░░░░░░░░░░░   15.62% 
+Saturday     77 commits     ███░░░░░░░░░░░░░░░░░   15.62% 
+Sunday       66 commits     ██░░░░░░░░░░░░░░░░░░   13.39%
 
 ```
 <!--END_SECTION:waka-->
