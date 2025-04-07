@@ -48,11 +48,11 @@ Sunday       291 commits     ███████░░░░░░░░░░
 
 ```
 
+<!--END_SECTION:waka-->
+
 ## ✨ Stats
 ![GitHub repo size](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fimran-prog%2Fimran-prog.json%3Fcolor%3Dpink) ![GitHub repo size](https://img.shields.io/github/repo-size/imran-prog/imran-prog?color=green) ![GitHub contributors](https://img.shields.io/github/contributors/imran-prog/imran-prog?color=brightgreen) ![GitHub top language](https://img.shields.io/github/languages/top/imran-prog/imran-prog)
 
-
-<!--END_SECTION:waka-->
 ---
 
 ## Find me around the web 🌎:
