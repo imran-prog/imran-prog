@@ -86,23 +86,23 @@ most_productive_day = max(day_of_week.items(), key=lambda x: x[1])[0]
 time_stats = f"""**I'm a {'Night' if time_of_day['night'] > max(time_of_day['morning'], time_of_day['daytime'], time_of_day['evening']) else 'Day' if time_of_day['daytime'] > max(time_of_day['morning'], time_of_day['night'], time_of_day['evening']) else 'Morning' if time_of_day['morning'] > max(time_of_day['daytime'], time_of_day['night'], time_of_day['evening']) else 'Evening'} 🦉** 
 
 ```text
-🌞 Morning    {time_of_day['morning']} commits     {'█' * (time_percentages['morning'] // 5)}{'░' * (20 - time_percentages['morning'] // 5)}   {time_percentages['morning']}% 
-🌆 Daytime    {time_of_day['daytime']} commits     {'█' * (time_percentages['daytime'] // 5)}{'░' * (20 - time_percentages['daytime'] // 5)}   {time_percentages['daytime']}% 
-🌃 Evening    {time_of_day['evening']} commits     {'█' * (time_percentages['evening'] // 5)}{'░' * (20 - time_percentages['evening'] // 5)}   {time_percentages['evening']}%
-🌙 Night      {time_of_day['night']} commits     {'█' * (time_percentages['night'] // 5)}{'░' * (20 - time_percentages['night'] // 5)}   {time_percentages['night']}% 
+🌞 Morning    {time_of_day['morning']} commits     {'█' * int(time_percentages['morning'] // 5)}{'░' * int(20 - time_percentages['morning'] // 5)}   {time_percentages['morning']}% 
+🌆 Daytime    {time_of_day['daytime']} commits     {'█' * int(time_percentages['daytime'] // 5)}{'░' * int(20 - time_percentages['daytime'] // 5)}   {time_percentages['daytime']}% 
+🌃 Evening    {time_of_day['evening']} commits     {'█' * int(time_percentages['evening'] // 5)}{'░' * int(20 - time_percentages['evening'] // 5)}   {time_percentages['evening']}%
+🌙 Night      {time_of_day['night']} commits     {'█' * int(time_percentages['night'] // 5)}{'░' * int(20 - time_percentages['night'] // 5)}   {time_percentages['night']}% 
 
 ```"""
 
 day_stats = f"""📅 **I'm Most Productive on {most_productive_day}** 
 
 ```text
-Monday       {day_of_week['Monday']} commits     {'█' * (day_percentages['Monday'] // 5)}{'░' * (20 - day_percentages['Monday'] // 5)}   {day_percentages['Monday']}% 
-Tuesday      {day_of_week['Tuesday']} commits     {'█' * (day_percentages['Tuesday'] // 5)}{'░' * (20 - day_percentages['Tuesday'] // 5)}   {day_percentages['Tuesday']}% 
-Wednesday    {day_of_week['Wednesday']} commits     {'█' * (day_percentages['Wednesday'] // 5)}{'░' * (20 - day_percentages['Wednesday'] // 5)}   {day_percentages['Wednesday']}% 
-Thursday     {day_of_week['Thursday']} commits     {'█' * (day_percentages['Thursday'] // 5)}{'░' * (20 - day_percentages['Thursday'] // 5)}   {day_percentages['Thursday']}% 
-Friday       {day_of_week['Friday']} commits     {'█' * (day_percentages['Friday'] // 5)}{'░' * (20 - day_percentages['Friday'] // 5)}   {day_percentages['Friday']}% 
-Saturday     {day_of_week['Saturday']} commits     {'█' * (day_percentages['Saturday'] // 5)}{'░' * (20 - day_percentages['Saturday'] // 5)}   {day_percentages['Saturday']}% 
-Sunday       {day_of_week['Sunday']} commits     {'█' * (day_percentages['Sunday'] // 5)}{'░' * (20 - day_percentages['Sunday'] // 5)}   {day_percentages['Sunday']}%
+Monday       {day_of_week['Monday']} commits     {'█' * int(day_percentages['Monday'] // 5)}{'░' * int(20 - day_percentages['Monday'] // 5)}   {day_percentages['Monday']}% 
+Tuesday      {day_of_week['Tuesday']} commits     {'█' * int(day_percentages['Tuesday'] // 5)}{'░' * int(20 - day_percentages['Tuesday'] // 5)}   {day_percentages['Tuesday']}% 
+Wednesday    {day_of_week['Wednesday']} commits     {'█' * int(day_percentages['Wednesday'] // 5)}{'░' * int(20 - day_percentages['Wednesday'] // 5)}   {day_percentages['Wednesday']}% 
+Thursday     {day_of_week['Thursday']} commits     {'█' * int(day_percentages['Thursday'] // 5)}{'░' * int(20 - day_percentages['Thursday'] // 5)}   {day_percentages['Thursday']}% 
+Friday       {day_of_week['Friday']} commits     {'█' * int(day_percentages['Friday'] // 5)}{'░' * int(20 - day_percentages['Friday'] // 5)}   {day_percentages['Friday']}% 
+Saturday     {day_of_week['Saturday']} commits     {'█' * int(day_percentages['Saturday'] // 5)}{'░' * int(20 - day_percentages['Saturday'] // 5)}   {day_percentages['Saturday']}% 
+Sunday       {day_of_week['Sunday']} commits     {'█' * int(day_percentages['Sunday'] // 5)}{'░' * int(20 - day_percentages['Sunday'] // 5)}   {day_percentages['Sunday']}%
 
 ```"""
 
