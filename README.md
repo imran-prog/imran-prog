@@ -59,11 +59,11 @@ Sunday       66 commits     ██░░░░░░░░░░░░░░░�
 <img src="https://github.com/imran-prog/imran-prog/blob/main/my-octocat-1608989195961.png" alt="banner that says Imran Akbar - software engineer, artificial lover & web developer alongside a cartoon illustration of a developer" align="left" width="200px">
 
 
-- 🤓 Self taught Developer 
-- 👩‍💻 Working on Web & App Development 
-- 📝 Solving Bugs, Compiling Code
-- 🎯 Goal : To be a better Developer 
-- 💌 Fun Facts : 
-    - Loves food but can't' cook 🐼 
-    - Overthinks thinking to not to overthink 🙂
-    - Bonita la vida! ( Ahh, Learning Spanish out of curiosity ) 🙃
+- 🧠 Curious by default, developer by choice
+- 🛠️ Turns ideas into tools, breaks them, then fixes them again
+- 🧩 Enjoys debugging more than writing code (weird, I know)
+- ⚙️ Works across Web, backend logic, infra basics & automation
+- ✨ Random Truths:
+    - Loves food, cooks by instinct, survives every time
+    - Quiet by nature, sharp when focused
+    - Overthinks… then overthinks how to stop overthinking 🙂
